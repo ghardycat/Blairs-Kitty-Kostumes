@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About Blair — Blair's Kitty Kostumes</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Meet Blair: owner, designer, and chief purr officer behind Blair's Kitty Kostumes.">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Home">
+      <span class="brand-logo">🐾</span>
+      <h1>Blair's Kitty Kostumes</h1>
+    </a>
+    <nav>
+      <a href="shop.html" class="">Shop</a>
+      <a href="lessons.html" class="">Cat Lessons</a>
+      <a href="about.html" class="active">About</a>
+      <a href="contact.html" class="">Contact</a>
+    </nav>
+  </div>
+</header>
+<section class="section">
+  <div class="container">
+    <div class="grid" style="grid-template-columns:1fr 2fr">
+      <div class="card">
+        <img src="placeholder.svg" alt="Portrait placeholder of Blair with a cat" style="width:100%;border-radius:12px;border:1px solid #ffe7bd"/>
+      </div>
+      <div class="card">
+        <h2>Hi, I'm Blair — Chief Purr Officer</h2>
+        <p>I'm the owner/operator of Blair's Kitty Kostumes and a lifelong friend of felines. After years of volunteering with shelters and sewing outfits for adoptable cats, I turned my hobby into a tiny, joyful business.</p>
+        <p>My designs prioritize comfort and cat dignity (as much as possible). Every costume is tested with gentle fittings and quick-release closures for the inevitable zoomies.</p>
+        <p>When I'm not sketching new looks, I'm teaching "How to Be a Cat" lessons for humans and cats alike — a playful program that blends enrichment with comedy.</p>
+        <p class="small">P.S. If your cat refuses all outfits, we applaud their independence. May their loaf be symmetrical.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 Blair's Kitty Kostumes • Pretend shop for fun. Meow responsibly.</p>
+  </div>
+</footer>
+<button class="cart-fab" type="button" aria-label="Open cart">Cart (0)</button>
+<div class="modal" id="cart-modal" role="dialog" aria-modal="true" aria-label="Shopping cart">
+  <div class="modal-card">
+    <div class="modal-header">
+      <h3>Your Basket</h3>
+      <button id="close-cart" class="close" aria-label="Close">Close</button>
+    </div>
+    <div class="cart-list"></div>
+    <hr style="border:none;border-top:1px solid #eee;margin:12px 0" />
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <strong>Total: <span class="cart-total">$0.00</span></strong>
+      <a class="btn btn-accent" href="mailto:orders@blairskittykostumes.example?subject=Kitty%20Kostumes%20Order&body=Hi%20Blair,%20I'd%20like%20to%20order..." aria-label="Checkout by email">Checkout by Email</a>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
